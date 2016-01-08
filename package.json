@@ -1,0 +1,14 @@
+{
+  "name": "snippet-cutter",
+  "version": "1.0.0",
+  "description": "Smart description snippet scissor",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet"
+  },
+  "author": "Isis T. Baulig",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
