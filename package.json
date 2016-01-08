@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "lodash.defaults": "^3.1.2"
   }
 }

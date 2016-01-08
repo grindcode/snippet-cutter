@@ -1,4 +1,6 @@
-var cutter = function (str, options) {
+var defaults = require('lodash.defaults')
+module.exports = function (str, opts) {
+  var options = defaults({}, opts, { min: 1, max: 140, ellipsis: '...'})
   return str.split('.').reduce((candidate, sentence) => {
     return (candidate.length < options.min)
            ? candidate.concat(`${sentence}.`)
@@ -7,5 +9,3 @@ var cutter = function (str, options) {
              : candidate.trim()
   }, '')
 }
-
-module.exports = cutter
