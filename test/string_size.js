@@ -64,3 +64,15 @@ test('2 sentences', function (t) {
     })
     t.equal(snippet.length, 269)
 });
+
+/**
+* @result: My money's in that office, right?
+*/
+test('delimeter', function (t) {
+    t.plan(1)
+    var snippet = cutter(description, {
+      delimeter: '?',
+      ellipsis: '...'
+    })
+    t.equal(snippet.length, 33)
+});
