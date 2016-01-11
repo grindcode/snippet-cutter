@@ -1,6 +1,6 @@
 {
   "name": "snippet-cutter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Returns a subset of a string, composed by complete subsets found using delimeter between min and max length. If no complete subsets are found, returns a subset using length max and ellipsis.",
   "main": "index.js",
   "scripts": {
