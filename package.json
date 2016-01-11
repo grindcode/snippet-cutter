@@ -1,10 +1,10 @@
 {
   "name": "snippet-cutter",
-  "version": "1.0.0",
-  "description": "Smart description snippet scissor",
+  "version": "0.1.0",
+  "description": "Returns a subset of a string, composed by complete subsets found using delimeter between min and max length. If no complete subsets are found, returns a subset using length max and ellipsis.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js | faucet"
+    "test": "tape test/*.js"
   },
   "author": "Isis T. Baulig",
   "license": "MIT",
@@ -13,5 +13,21 @@
   },
   "dependencies": {
     "lodash.defaults": "^3.1.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grindcode/snippet-cutter.git"
+  },
+  "keywords": [
+    "String",
+    "Subset",
+    "Snippet"
+  ],
+  "bugs": {
+    "url": "https://github.com/grindcode/snippet-cutter/issues"
+  },
+  "homepage": "https://github.com/grindcode/snippet-cutter#readme"
 }
