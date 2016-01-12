@@ -5,7 +5,7 @@ module.exports = function (str, opts) {
   })
   return str.split(options.delimeter).reduce(function (candidate, sentence) {
     return (candidate.length < options.min)
-           ? candidate.concat(`${sentence}${options.delimeter}`)
+           ? candidate.concat(sentence + options.delimeter)
            : (candidate.length > (options.max + options.ellipsis.length))
              ? candidate.slice(0, options.max) + options.ellipsis
              : candidate
