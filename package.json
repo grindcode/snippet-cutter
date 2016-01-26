@@ -12,7 +12,7 @@
     "tape": "^4.4.0"
   },
   "dependencies": {
-    "lodash.defaults": "^3.1.2"
+    "lodash.defaults": "^4.0.0"
   },
   "directories": {
     "test": "test"
