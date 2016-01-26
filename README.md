@@ -3,9 +3,6 @@
 
 Returns a subset of a _string_, composed by complete subsets found using `delimeter` between `min` and `max` _length_. If no complete subsets are found, returns a subset using _length_ `max` and `ellipsis`.
 
-[![browser support](https://ci.testling.com/grindcode/snippet-cutter.png)
-](https://ci.testling.com/grindcode/snippet-cutter)
-
 ## Get Started
 ```
 npm install snippet-cutter
