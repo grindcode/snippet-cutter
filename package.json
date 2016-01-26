@@ -24,7 +24,17 @@
   "keywords": [
     "String",
     "Subset",
-    "Snippet"
+    "Snippet",
+    "Excerpt",
+    "Description",
+    "Substring",
+    "Slice",
+    "Parts",
+    "Delimeter",
+    "Read",
+    "More",
+    "Short",
+    "Shortener"
   ],
   "bugs": {
     "url": "https://github.com/grindcode/snippet-cutter/issues"
