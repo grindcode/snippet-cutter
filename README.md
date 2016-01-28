@@ -4,7 +4,7 @@
 Returns a subset of a _string_, composed by complete subsets found using `delimeter` between `min` and `max` _length_. If no complete subsets are found, returns a subset using _length_ `max` and `ellipsis`.
 
 ## Get Started
-```
+```bash
 npm install snippet-cutter
 ```
 
@@ -17,7 +17,7 @@ Returns `string` processed. The `options` parameter is optional, but must be an 
 * `ellipsis`: Ending string when no complete subset is found. (**String**; default: `'...'`)
 
 ### Usage
-```
+```javascript
 var cutter = require('snippet-cutter')
 
 cutter(string, options)
