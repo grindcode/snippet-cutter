@@ -4,12 +4,15 @@
   "description": "Returns a subset of a string, composed by complete subsets found using delimeter between min and max length. If no complete subsets are found, returns a subset using length max and ellipsis.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "report": "nyc tape test/*.js && nyc report --reporter=text-lcov | codeclimate-test-reporter"
   },
   "author": "Isis T. Baulig",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^4.4.0"
+    "codeclimate-test-reporter": "^0.3.1",
+    "nyc": "^6.1.1",
+    "tape": "^4.5.1"
   },
   "dependencies": {
     "lodash.defaults": "^4.0.0"
