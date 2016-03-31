@@ -1,5 +1,5 @@
 # Snippet Cutter
-[![Build Status](https://travis-ci.org/grindcode/snippet-cutter.svg)](https://travis-ci.org/grindcode/snippet-cutter) [![Dependency Status](https://david-dm.org/grindcode/snippet-cutter.svg)](https://david-dm.org/grindcode/snippet-cutter) [![devDependency Status](https://david-dm.org/grindcode/snippet-cutter/dev-status.svg)](https://david-dm.org/grindcode/snippet-cutter#info=devDependencies)
+[![Build Status](https://travis-ci.org/grindcode/snippet-cutter.svg)](https://travis-ci.org/grindcode/snippet-cutter) [![Test Coverage](https://codeclimate.com/github/grindcode/snippet-cutter/badges/coverage.svg)](https://codeclimate.com/github/grindcode/snippet-cutter/coverage) [![Dependency Status](https://david-dm.org/grindcode/snippet-cutter.svg)](https://david-dm.org/grindcode/snippet-cutter) [![devDependency Status](https://david-dm.org/grindcode/snippet-cutter/dev-status.svg)](https://david-dm.org/grindcode/snippet-cutter#info=devDependencies)
 
 Returns a subset of a _string_, composed by complete subsets found using `delimeter` between `min` and `max` _length_. If no complete subsets are found, returns a subset using _length_ `max` and `ellipsis`.
 
