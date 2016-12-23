@@ -10,6 +10,9 @@ var defaultOptions = {
 module.exports = function (str, opts) {
   var options = defaults({}, opts, defaultOptions)
   return str.split(options.delimeter).reduce(function (snippet, sentence) {
+    if (options.min >= options.max) {
+      options.max = options.min
+    }
     if (snippet.length < options.min) {
       return snippet.concat(sentence + options.delimeter)
     }

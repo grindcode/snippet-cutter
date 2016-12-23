@@ -76,3 +76,14 @@ test('delimeter', function (t) {
     })
     t.equal(snippet.length, 33)
 });
+
+/**
+* @result: My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna ...
+*/
+test('min higher than max', function (t) {
+    t.plan(1)
+    var snippet = cutter(description, {
+      min: 200,
+    })
+    t.equal(snippet.length, 203)
+});
