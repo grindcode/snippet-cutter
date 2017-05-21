@@ -10,8 +10,8 @@
   "author": "Isis T. Baulig",
   "license": "MIT",
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.3.1",
-    "nyc": "^9.0.1",
+    "codeclimate-test-reporter": "^0.4.0",
+    "nyc": "^10.0.0",
     "tape": "^4.5.1"
   },
   "dependencies": {
