@@ -4,7 +4,7 @@ var defaultOptions = {
   min: 1,
   max: 140,
   ellipsis: '...',
-  delimeter: '.',
+  delimeter: '.'
 }
 
 module.exports = function (str, opts) {
